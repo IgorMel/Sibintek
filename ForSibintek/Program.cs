@@ -33,7 +33,7 @@ namespace ForSibintek
                 if (startDirectory.ToLower() == "exit")
                     return;
             }
-            new FindFile(firstDirectory).Start(); 
+            new FindFile(firstDirectory,new EfRepository()).Start(); //Можно заменить репозиторий EfRepository на AdoRepository
 
             ReadLine();
         }

@@ -13,9 +13,9 @@ namespace ForSibintek
         TaskQueue<string> FilesQueue;
         QueueDb queueDb;
         int count;
-        public FindFile(DirectoryInfo directory)
+        public FindFile(DirectoryInfo directory,IRepository repository)
         {
-            queueDb = new QueueDb();
+            queueDb = new QueueDb(repository);
             FilesQueue = new TaskQueue<string>(4, n =>
               {
                   var file = new Models.File

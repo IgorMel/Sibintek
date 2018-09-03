@@ -8,7 +8,7 @@ namespace ForSibintek.Models
         private ApplicationContext db;
         public EfRepository()
         {
-            this.db = new ApplicationContext();
+            //this.db = new ApplicationContext();
         }
         public void Create(File item)
         {
@@ -38,6 +38,12 @@ namespace ForSibintek.Models
         {
             Dispose(true);
             GC.SuppressFinalize(this);
+        }
+
+        public IRepository Context()
+        {
+            db = new ApplicationContext();
+            return this;
         }
     }
 }

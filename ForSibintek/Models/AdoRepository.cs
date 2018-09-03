@@ -14,7 +14,12 @@ namespace ForSibintek.Models
             connectionString = ConfigurationManager
                 .ConnectionStrings["DbEntityConnection"]
                 .ConnectionString;
+        }
+
+        public IRepository Context()
+        {
             connection = new SqlConnection(connectionString);
+            return this;
         }
 
         public void Create(File item)
@@ -77,5 +82,7 @@ namespace ForSibintek.Models
         {
             connection.Dispose();
         }
+
+        
     }
 }

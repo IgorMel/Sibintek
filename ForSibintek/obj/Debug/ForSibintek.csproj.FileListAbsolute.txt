@@ -1,0 +1,12 @@
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\ForSibintek.exe.config
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\ForSibintek.exe
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\ForSibintek.pdb
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\EntityFramework.dll
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\EntityFramework.SqlServer.dll
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\EntityFramework.xml
+D:\Igor\CSharp\Sibintek\ForSibintek\bin\Debug\EntityFramework.SqlServer.xml
+D:\Igor\CSharp\Sibintek\ForSibintek\obj\Debug\ForSibintek.csprojAssemblyReference.cache
+D:\Igor\CSharp\Sibintek\ForSibintek\obj\Debug\ForSibintek.csproj.CoreCompileInputs.cache
+D:\Igor\CSharp\Sibintek\ForSibintek\obj\Debug\ForSibintek.csproj.CopyComplete
+D:\Igor\CSharp\Sibintek\ForSibintek\obj\Debug\ForSibintek.exe
+D:\Igor\CSharp\Sibintek\ForSibintek\obj\Debug\ForSibintek.pdb

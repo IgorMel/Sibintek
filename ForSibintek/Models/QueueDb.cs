@@ -10,12 +10,12 @@ namespace ForSibintek.Models
     {
         TaskQueue<File> taskQueue;
         public int Count {  set { taskQueue.Count = value; } }
-        public QueueDb()
+        public QueueDb(IRepository repository)
         {
             taskQueue = new TaskQueue<File>(1,
             n =>
             {
-                using (var db = new AdoRepository())
+                using (var db = repository.Context())
                 {
                     db.Create(n);
                 }
